@@ -30,6 +30,19 @@ EOF
   exit 1
 fi
 
+# Homebrew sering nggak kebaca di shell non-interaktif, apalagi di Apple Silicon
+# yang menaruhnya di /opt/homebrew. Cari di tempat-tempat yang lazim, bukan cuma PATH.
+cari_brew() {
+  command -v brew >/dev/null 2>&1 && return 0
+  for b in /opt/homebrew/bin/brew /usr/local/bin/brew "$HOME/homebrew/bin/brew"; do
+    [ -x "$b" ] && { eval "$("$b" shellenv)"; return 0; }
+  done
+  return 1
+}
+
+# Node lewat nvm juga nggak otomatis kebaca di shell baru.
+muat_nvm() { [ -s "$HOME/.nvm/nvm.sh" ] && . "$HOME/.nvm/nvm.sh" >/dev/null 2>&1 || true; }
+
 say "AI Hub · pemasangan"
 
 # ---------- 1. Prasyarat ----------
@@ -43,8 +56,9 @@ if ! xcode-select -p >/dev/null 2>&1; then
 fi
 ok "Xcode Command Line Tools"
 
+command -v node >/dev/null 2>&1 || muat_nvm
 if ! command -v node >/dev/null 2>&1; then
-  if command -v brew >/dev/null 2>&1; then
+  if cari_brew; then
     warn "Node belum ada, dipasang lewat Homebrew..."
     brew install node || die "Gagal pasang Node. Coba 'brew install node' manual."
   else
@@ -84,18 +98,41 @@ else
   echo "       (cek email, atau buka https://github.com/notifications)"
   echo "    2. Terminal ini sudah login GitHub"
   echo
-  if ! command -v gh >/dev/null 2>&1; then
-    command -v brew >/dev/null 2>&1 || die "Login GitHub belum ada dan Homebrew juga belum terpasang. Pasang Homebrew dari https://brew.sh lalu ulangi."
+  if ! command -v gh >/dev/null 2>&1 && cari_brew; then
     langkah "Memasang GitHub CLI dulu (sekali saja)"
-    brew install gh || die "Gagal pasang GitHub CLI. Coba 'brew install gh' manual lalu ulangi."
+    brew install gh || true
   fi
 
-  if ! gh auth status >/dev/null 2>&1; then
-    langkah "Login GitHub lewat browser. Pilih HTTPS waktu ditanya protokol."
-    gh auth login || die "Login GitHub dibatalkan. Ulangi perintah ini kapan pun kamu siap."
+  if command -v gh >/dev/null 2>&1; then
+    # Jalur termudah: login lewat browser.
+    if ! gh auth status >/dev/null 2>&1; then
+      langkah "Login GitHub lewat browser. Pilih HTTPS waktu ditanya protokol."
+      gh auth login || die "Login GitHub dibatalkan. Ulangi perintah ini kapan pun kamu siap."
+    fi
+    gh auth setup-git >/dev/null 2>&1 || true
+    ok "login GitHub siap"
+  else
+    # Tanpa Homebrew dan tanpa GitHub CLI: pakai kunci SSH, cuma butuh bawaan macOS.
+    KEY="$HOME/.ssh/id_ed25519"
+    if [ ! -f "$KEY" ]; then
+      langkah "Membuat kunci SSH baru (sekali seumur hidup)"
+      mkdir -p "$HOME/.ssh" && chmod 700 "$HOME/.ssh"
+      ssh-keygen -t ed25519 -N "" -f "$KEY" -C "aihub-$(whoami)@$(hostname -s)" >/dev/null || die "Gagal membuat kunci SSH."
+    fi
+    echo
+    echo "  Salin baris di bawah ini, lalu tempel di https://github.com/settings/ssh/new"
+    echo "  (Title boleh diisi apa saja, contoh: MacBook saya)"
+    echo
+    echo "  ────────────────────────────────────────────────────────────"
+    cat "$KEY.pub"
+    echo "  ────────────────────────────────────────────────────────────"
+    echo
+    command -v pbcopy >/dev/null 2>&1 && pbcopy < "$KEY.pub" && echo "  (sudah otomatis tersalin ke clipboard kamu)"
+    echo
+    printf '  Tekan Enter kalau kuncinya sudah ditambahkan di GitHub... '
+    read -r _ </dev/tty
+    ssh-add "$KEY" >/dev/null 2>&1 || true
   fi
-  gh auth setup-git >/dev/null 2>&1 || true
-  ok "login GitHub siap"
 
   if punya_akses "https://github.com/$REPO.git"; then
     CLONE_URL="https://github.com/$REPO.git"; ok "akses repo lewat HTTPS"
