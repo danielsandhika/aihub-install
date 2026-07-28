@@ -1,7 +1,7 @@
 #!/bin/bash
 # Bootstrap AI Hub: satu perintah, dari nol sampai jalan.
 #
-#   curl -fsSL https://raw.githubusercontent.com/danielsandhika/aihub-install/main/get-aihub.sh | bash
+#   bash -c "$(curl -fsSL https://raw.githubusercontent.com/danielsandhika/aihub-install/main/get-aihub.sh)"
 #
 # Skrip ini TIDAK memuat rahasia apa pun. Dia cuma nuntun prasyarat lalu clone repo
 # private pakai kredensial GitHub milik user sendiri, jadi aman ditaruh di tempat publik.
@@ -15,6 +15,20 @@ ok()    { printf '  ok   %s\n' "$1"; }
 warn()  { printf '  !    %s\n' "$1"; }
 die()   { printf '\n  BERHENTI: %s\n\n' "$1" >&2; exit 1; }
 langkah() { printf '\n  ── %s\n' "$1"; }
+
+# `curl ... | bash` bikin stdin dipakai buat isi skrip, jadi prompt apa pun
+# (host key SSH, login GitHub, sudo) nggak bisa dijawab dan pemasangan mentok.
+# Bentuk bash -c "$(curl ...)" nyimpen terminal tetap bisa dipakai.
+if [ ! -t 0 ]; then
+  cat <<'EOF'
+
+  Jalankan dengan bentuk ini supaya terminalnya tetap bisa menjawab pertanyaan:
+
+    bash -c "$(curl -fsSL https://raw.githubusercontent.com/danielsandhika/aihub-install/main/get-aihub.sh)"
+
+EOF
+  exit 1
+fi
 
 say "AI Hub · pemasangan"
 
@@ -42,7 +56,16 @@ NODE_MAJOR="$(node -p 'process.versions.node.split(".")[0]' 2>/dev/null || echo 
 ok "Node $(node -v)"
 
 # ---------- 2. Akses repo ----------
-punya_akses() { git ls-remote "$1" >/dev/null 2>&1; }
+# Pengecekan akses harus diam: BatchMode bikin SSH gagal cepat daripada nanya,
+# accept-new nerima host key GitHub tanpa tanya, dan GIT_TERMINAL_PROMPT=0 bikin
+# HTTPS gagal cepat daripada minta username dan password (yang lagipula sudah
+# nggak dipakai GitHub sejak 2021).
+punya_akses() {
+  GIT_TERMINAL_PROMPT=0 \
+  GIT_ASKPASS=/usr/bin/true \
+  GIT_SSH_COMMAND="ssh -o BatchMode=yes -o StrictHostKeyChecking=accept-new -o ConnectTimeout=8" \
+    git ls-remote "$1" >/dev/null 2>&1
+}
 
 CLONE_URL=""
 # Buat yang pakai alias SSH sendiri (contoh: host github-personal di ~/.ssh/config),
@@ -61,18 +84,18 @@ else
   echo "       (cek email, atau buka https://github.com/notifications)"
   echo "    2. Terminal ini sudah login GitHub"
   echo
-  if command -v gh >/dev/null 2>&1; then
-    langkah "GitHub CLI terdeteksi. Menjalankan login..."
-    gh auth login || true
-    gh auth setup-git >/dev/null 2>&1 || true
-  else
-    if command -v brew >/dev/null 2>&1; then
-      langkah "Memasang GitHub CLI biar login-nya dituntun lewat browser..."
-      brew install gh && gh auth login && gh auth setup-git >/dev/null 2>&1 || true
-    else
-      die "Login GitHub belum ada. Pasang GitHub CLI (brew install gh), jalankan 'gh auth login', lalu ulangi perintah ini."
-    fi
+  if ! command -v gh >/dev/null 2>&1; then
+    command -v brew >/dev/null 2>&1 || die "Login GitHub belum ada dan Homebrew juga belum terpasang. Pasang Homebrew dari https://brew.sh lalu ulangi."
+    langkah "Memasang GitHub CLI dulu (sekali saja)"
+    brew install gh || die "Gagal pasang GitHub CLI. Coba 'brew install gh' manual lalu ulangi."
   fi
+
+  if ! gh auth status >/dev/null 2>&1; then
+    langkah "Login GitHub lewat browser. Pilih HTTPS waktu ditanya protokol."
+    gh auth login || die "Login GitHub dibatalkan. Ulangi perintah ini kapan pun kamu siap."
+  fi
+  gh auth setup-git >/dev/null 2>&1 || true
+  ok "login GitHub siap"
 
   if punya_akses "https://github.com/$REPO.git"; then
     CLONE_URL="https://github.com/$REPO.git"; ok "akses repo lewat HTTPS"
@@ -96,7 +119,8 @@ elif [ -e "$TARGET" ]; then
   die "$TARGET sudah ada tapi bukan hasil clone git. Pindahkan atau hapus dulu, lalu ulangi."
 else
   say "Mengambil kode ke $TARGET"
-  git clone --depth 50 "$CLONE_URL" "$TARGET" || die "Gagal clone."
+  GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=accept-new" \
+    git clone --depth 50 "$CLONE_URL" "$TARGET" || die "Gagal clone."
 fi
 ok "kode siap"
 
