@@ -8,6 +8,7 @@
 set -uo pipefail
 
 REPO="danielsandhika/AI-Hub"
+INSTALLER_URL="https://raw.githubusercontent.com/danielsandhika/aihub-install/main/get-aihub.sh"
 TARGET="${AIHUB_HOME:-$HOME/aihub}"
 
 say()   { printf '\n\033[1m%s\033[0m\n' "$1"; }
@@ -103,11 +104,30 @@ else
     brew install gh || true
   fi
 
-  if command -v gh >/dev/null 2>&1; then
+  # GITHUB_TOKEN / GH_TOKEN di environment bikin `gh auth login` NOLAK jalan
+  # ("first clear the value from the environment"), jadi installer-nya berhenti
+  # padahal user nggak salah apa-apa. Coba dulu tokennya beneran punya akses;
+  # kalau nggak, minggirin token itu buat sisa skrip ini saja.
+  if [ -n "${GITHUB_TOKEN:-}${GH_TOKEN:-}" ] && command -v gh >/dev/null 2>&1; then
+    if gh repo view "$REPO" >/dev/null 2>&1; then
+      langkah "Pakai GITHUB_TOKEN yang sudah ada di terminal kamu"
+      gh auth setup-git >/dev/null 2>&1 || true
+      if punya_akses "https://github.com/$REPO.git"; then
+        CLONE_URL="https://github.com/$REPO.git"; ok "akses repo lewat token yang sudah ada"
+      fi
+    else
+      warn "GITHUB_TOKEN di terminal kamu nggak punya akses ke repo ini, jadi diabaikan."
+      unset GITHUB_TOKEN GH_TOKEN
+    fi
+  fi
+
+  if [ -n "$CLONE_URL" ]; then
+    : # sudah dapat akses lewat token, nggak perlu login lagi
+  elif command -v gh >/dev/null 2>&1; then
     # Jalur termudah: login lewat browser.
     if ! gh auth status >/dev/null 2>&1; then
       langkah "Login GitHub lewat browser. Pilih HTTPS waktu ditanya protokol."
-      gh auth login || die "Login GitHub dibatalkan. Ulangi perintah ini kapan pun kamu siap."
+      gh auth login || die "Login GitHub dibatalkan. Ulangi perintah ini kapan pun kamu siap. Kalau tadi muncul pesan soal GITHUB_TOKEN, jalankan ulang begini: env -u GITHUB_TOKEN -u GH_TOKEN bash -c \"\$(curl -fsSL $INSTALLER_URL)\""
     fi
     gh auth setup-git >/dev/null 2>&1 || true
     ok "login GitHub siap"
@@ -141,7 +161,7 @@ else
   else
     echo
     echo "  Kalau kamu pakai alias SSH sendiri di ~/.ssh/config, jalankan begini:"
-    echo "    AIHUB_CLONE_URL=alias-kamu:$REPO.git bash -c \"\$(curl -fsSL <url-skrip-ini>)\""
+    echo "    AIHUB_CLONE_URL=alias-kamu:$REPO.git bash -c \"\$(curl -fsSL $INSTALLER_URL)\""
     echo
     die "Masih belum bisa akses repo. Pastikan undangan collaborator sudah diterima, lalu ulangi perintah ini."
   fi
