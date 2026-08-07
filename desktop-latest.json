@@ -1,6 +1,6 @@
 {
-  "version": "1.1.5",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.1.5/AI-Hub-1.1.5-arm64-mac.zip",
-  "sha256": "60e84f2ab1acdf3c2834bc6113ca34450537b58b823088a83019ee1516aef859",
-  "notes": "- fitur: satu tombol update buat semua jalur + patch notes"
+  "version": "1.1.6",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.1.6/AI-Hub-1.1.6-arm64-mac.zip",
+  "sha256": "d0f98f53686a87da2b8bc1bbd674b8d307b2d3167299f5b872623b5e1dd15149",
+  "notes": "- fix: updater desktop diperkeras setelah insiden app hilang\n- fix: langkah manifest build-desktop gagal di mesin dengan cwd staging"
 }
