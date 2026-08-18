@@ -1,6 +1,6 @@
 {
-  "version": "1.1.6",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.1.6/AI-Hub-1.1.6-arm64-mac.zip",
-  "sha256": "d0f98f53686a87da2b8bc1bbd674b8d307b2d3167299f5b872623b5e1dd15149",
-  "notes": "- fix: updater desktop diperkeras setelah insiden app hilang\n- fix: langkah manifest build-desktop gagal di mesin dengan cwd staging"
+  "version": "1.1.12",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.1.12/AI-Hub-1.1.12-arm64-mac.zip",
+  "sha256": "888926bbba091dbc96582527d25214c6e97a27284b579d639bfe8c1e378ea04f",
+  "notes": "- fix: selisih versi nggak bisa sunyi lagi (rilis 1.1.12)\n- feat: kanvas desain bisa dikomentari, plus Mode Kanvas (rilis 1.1.11)\n- fix: badge versi bedain cangkang app dan server (rilis 1.1.10)\n- feat: app update sendiri waktu dibuka, plus menu Update & Restart\n- fix: baris tab punya jatah lebar sendiri, dan yang kepotong kelihatan kepotong\n- fix: prompt pembuka sesi baru nggak lagi dibunuh sistemnya sendiri\n- fix: pane split rapi (layout dipertahankan, tab mati disaring, strip rencana bisa menyusut)\n- feat: AI Orchestrator chat mode\n- fix: bedakan history kosong vs rusak; mode default pakai MODE_BAWAAN\n- feat: layout picker Mac-style untuk pane (single, kolom, baris, grid, proporsi)\n- fix: bersihkan config.toml Kimi dari deny rules yang merusak schema; tambah uji schedule unattended"
 }
