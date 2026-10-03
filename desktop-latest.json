@@ -1,6 +1,6 @@
 {
-  "version": "1.9.28",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.9.28/AI-Hub-1.9.28-arm64-mac.zip",
-  "sha256": "e92a882e43a375dbf61d8d9a88283ecb0960b141bad3a3f4974a9920b0866307",
-  "notes": "- Cubai Notes: kertas catatan melayang, kirim poin ke kotak ketik sesi\n- You should know: catatan penting selama tugas panjang di sesi Claude\n- Popover update sekarang bisa di-scroll"
+  "version": "1.9.29",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.9.29/AI-Hub-1.9.29-arm64-mac.zip",
+  "sha256": "95a57bde089e78ebb09211d3ba87f6be9195e87f03b14a6718cc5679d49d2a1a",
+  "notes": "- Panel Cubai bisa di-scroll: tombol Notes, Open AI Hub, Quit, dan Dismiss Cubai selalu kelihatan"
 }
