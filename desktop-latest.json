@@ -1,6 +1,6 @@
 {
-  "version": "1.9.29",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.9.29/AI-Hub-1.9.29-arm64-mac.zip",
-  "sha256": "95a57bde089e78ebb09211d3ba87f6be9195e87f03b14a6718cc5679d49d2a1a",
-  "notes": "- Panel Cubai bisa di-scroll: tombol Notes, Open AI Hub, Quit, dan Dismiss Cubai selalu kelihatan"
+  "version": "1.9.30",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.9.30/AI-Hub-1.9.30-arm64-mac.zip",
+  "sha256": "0fcbe8e49cc0f74ef299b0a69920105401e905e49270d583edfa5db1ea09ac4d",
+  "notes": "- Notes: Projects, beberapa kertas sekaligus, Done/Send to/Move/Copy/Delete, ⌘K\n- Notes: sub-point dengan Tab, font tulisan tangan, quick capture ⌘⌃N\n- Notes: sesi baru di folder project, cari, ekspor Markdown, paste gambar"
 }
