@@ -1,6 +1,6 @@
 {
-  "version": "1.9.30",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.9.30/AI-Hub-1.9.30-arm64-mac.zip",
-  "sha256": "0fcbe8e49cc0f74ef299b0a69920105401e905e49270d583edfa5db1ea09ac4d",
-  "notes": "- Notes: Projects, beberapa kertas sekaligus, Done/Send to/Move/Copy/Delete, ⌘K\n- Notes: sub-point dengan Tab, font tulisan tangan, quick capture ⌘⌃N\n- Notes: sesi baru di folder project, cari, ekspor Markdown, paste gambar"
+  "version": "1.9.31",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.9.31/AI-Hub-1.9.31-arm64-mac.zip",
+  "sha256": "2e3b6767cffc66117e77e895b11ba38aaec7a5b03dbf339616a0ace4ef6f47f4",
+  "notes": "- Notes: Enter waktu mengedit poin bikin poin baru di bawahnya\n- Notes: minimize kertas jadi strip judul (tombol atau ⌘M)\n- Notes: Send to ke semua sesi, termasuk yang lagi tertutup, plus kotak cari"
 }
