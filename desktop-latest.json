@@ -1,6 +1,6 @@
 {
-  "version": "1.9.31",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.9.31/AI-Hub-1.9.31-arm64-mac.zip",
-  "sha256": "2e3b6767cffc66117e77e895b11ba38aaec7a5b03dbf339616a0ace4ef6f47f4",
-  "notes": "- Notes: Enter waktu mengedit poin bikin poin baru di bawahnya\n- Notes: minimize kertas jadi strip judul (tombol atau ⌘M)\n- Notes: Send to ke semua sesi, termasuk yang lagi tertutup, plus kotak cari"
+  "version": "1.9.32",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.9.32/AI-Hub-1.9.32-arm64-mac.zip",
+  "sha256": "69fa2174c45582719e8a4e9ab04f7b168b2ce0b44929f2a52368915aa32ee016",
+  "notes": "- Swarm Kimi sekarang terpantau hidup: progress subagent bergerak, yang mandek ditandai stalled, dan Cubai masuk mode agent\n- Turn Kimi yang gantung dimatikan otomatis (session/cancel), token berhenti terpakai\n- Request tak dikenal dijawab error, bukan diam — penyebab utama swarm gantung\n- Kimi: kartu pertanyaan AskUserQuestion, pagar baca-saja, dan pesan error yang menjelaskan penyebab"
 }
