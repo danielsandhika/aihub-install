@@ -1,6 +1,6 @@
 {
-  "version": "1.9.32",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.9.32/AI-Hub-1.9.32-arm64-mac.zip",
-  "sha256": "69fa2174c45582719e8a4e9ab04f7b168b2ce0b44929f2a52368915aa32ee016",
-  "notes": "- Swarm Kimi sekarang terpantau hidup: progress subagent bergerak, yang mandek ditandai stalled, dan Cubai masuk mode agent\n- Turn Kimi yang gantung dimatikan otomatis (session/cancel), token berhenti terpakai\n- Request tak dikenal dijawab error, bukan diam — penyebab utama swarm gantung\n- Kimi: kartu pertanyaan AskUserQuestion, pagar baca-saja, dan pesan error yang menjelaskan penyebab"
+  "version": "1.9.33",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.9.33/AI-Hub-1.9.33-arm64-mac.zip",
+  "sha256": "65596e4f2bb16c81b5733079001b155d9f71dfe0b64f4b9a5ab08f67703bd82e",
+  "notes": "- Perbaikan bug: indikator \"N background agent running\" tidak lagi membeku setelah semua agent selesai\n- Berkas status beku turun otomatis jadi stalled (output diam, melewati batas waktu Kimi, atau tak tersentuh > 30 menit)\n- Chip dibersihkan begitu sesi berakhir, tidak lagi terpajang lintas hari"
 }
