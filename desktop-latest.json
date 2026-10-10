@@ -1,6 +1,6 @@
 {
-  "version": "1.9.33",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.9.33/AI-Hub-1.9.33-arm64-mac.zip",
-  "sha256": "65596e4f2bb16c81b5733079001b155d9f71dfe0b64f4b9a5ab08f67703bd82e",
-  "notes": "- Perbaikan bug: indikator \"N background agent running\" tidak lagi membeku setelah semua agent selesai\n- Berkas status beku turun otomatis jadi stalled (output diam, melewati batas waktu Kimi, atau tak tersentuh > 30 menit)\n- Chip dibersihkan begitu sesi berakhir, tidak lagi terpajang lintas hari"
+  "version": "1.9.34",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.9.34/AI-Hub-1.9.34-arm64-mac.zip",
+  "sha256": "034ef759335afe96b16620d390ed63d7d24a10ca77a2046427d63bc6d8b34b66",
+  "notes": "- Kartu agent Kimi sekarang bisa dibuka: kelihatan langkah demi langkah apa yang dikerjakan subagent (jawaban buat \"agent lagi ngapain?\")\n- Tombol Stop di kartu agent untuk tugas proses background — force-stop sungguhan, tidak perlu minta lewat prompt\n- Agent yang diam lebih dari 5 menit ditandai stalled + notifikasi, bukan spinner abadi"
 }
