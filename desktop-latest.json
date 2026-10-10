@@ -1,6 +1,6 @@
 {
-  "version": "1.9.34",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.9.34/AI-Hub-1.9.34-arm64-mac.zip",
-  "sha256": "034ef759335afe96b16620d390ed63d7d24a10ca77a2046427d63bc6d8b34b66",
-  "notes": "- Kartu agent Kimi sekarang bisa dibuka: kelihatan langkah demi langkah apa yang dikerjakan subagent (jawaban buat \"agent lagi ngapain?\")\n- Tombol Stop di kartu agent untuk tugas proses background — force-stop sungguhan, tidak perlu minta lewat prompt\n- Agent yang diam lebih dari 5 menit ditandai stalled + notifikasi, bukan spinner abadi"
+  "version": "1.9.35",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.9.35/AI-Hub-1.9.35-arm64-mac.zip",
+  "sha256": "7fa33c4ba1e9014dcac709e8ed15c59cde6da8987754cf0a2bf8c70a34a6abfd",
+  "notes": "- Projects: satu chat koordinator memecah kerja jadi thread paralel (Claude, Kimi, Codex), tiap thread kerja di branch sendiri dan nggak bisa push\n- Buka AI Hub dari HP lewat Tailscale + PIN (tombol Phone di bar atas), plus Keep this Mac awake dan pagar suhu\n- Menu Tools di sidebar dilipat; izin sesi nggak berubah lagi waktu dibuka dari perangkat lain"
 }
