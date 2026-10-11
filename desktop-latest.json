@@ -1,6 +1,6 @@
 {
-  "version": "2.0.2",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.2/AI-Hub-2.0.2-arm64-mac.zip",
-  "sha256": "d0555fea20ce6a2250de1844d40d4749eca3ed2abac1d89903c98a7122d3a939",
-  "notes": "- Ikon Tailscale nggak keluar-muncul lagi: Interfell sekarang jarang sekali mengecek Tailscale\n- Kalau Interfell dibuka dari salinan (DMG, Downloads, atau folder lain), muncul tawaran membuka app yang terpasang\n- aihub update di terminal nggak lagi merusak terminal di dalam app, dan kalau server gagal start, penyebabnya ditampilkan"
+  "version": "2.0.3",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.3/AI-Hub-2.0.3-arm64-mac.zip",
+  "sha256": "029bd70f5b483c5c4f732ce502d495fd87f5b06ad2eb796e90a63e9a8b3776fb",
+  "notes": "Di HP, daftar Plan nggak lagi tumpah menimpa kartu Heads up, dan percakapan nggak terjepit jadi sebaris. Kalau ruangnya sempit, daftar Plan discroll di dalam kotaknya."
 }
