@@ -1,6 +1,6 @@
 {
-  "version": "2.0.0",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.0/AI-Hub-2.0.0-arm64-mac.zip",
-  "sha256": "e3c35f95e47e9d88e52ea1e01ff262817956ea0db8c4194d0265ab9fdb16b0fc",
-  "notes": "- Notifikasi ke iPhone: buka AI Hub dari ikon Home Screen di HP, lalu nyalakan di kartu Notifications. Bunyi waktu sesi atau thread butuh jawaban, selesai, atau berhenti\n- Suara notifikasi baru dari rekaman asli (bukan beep lagi), plus suara waktu kertas Notes dibuka\n- Sound pack Warcraft: sesudah update, tombol Update menawarkan Download sound pack. Opsional, bisa Remove kapan saja"
+  "version": "2.0.1",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.1/AI-Hub-2.0.1-arm64-mac.zip",
+  "sha256": "f00c3dd50d3ddb3fb297bb2b1cf7b25fff1b8aac41b88eb73e7df3f42882357f",
+  "notes": "- AI Hub sekarang bernama Interfell: Winter is Working. Nama baru tampil di Dock, Finder, menu, dan di dalam app. Folder, setelan, dan sesi kamu tetap\n- Suara notifikasi sekitar 2,5 kali lebih keras, termasuk sound pack Warcraft\n- Halaman HP ikut bernama Interfell. Ikon Home Screen lama tetap jalan; tambahkan ulang kalau mau namanya ikut berubah"
 }
