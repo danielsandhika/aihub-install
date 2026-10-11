@@ -1,6 +1,6 @@
 {
-  "version": "1.9.35",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v1.9.35/AI-Hub-1.9.35-arm64-mac.zip",
-  "sha256": "7fa33c4ba1e9014dcac709e8ed15c59cde6da8987754cf0a2bf8c70a34a6abfd",
-  "notes": "- Projects: satu chat koordinator memecah kerja jadi thread paralel (Claude, Kimi, Codex), tiap thread kerja di branch sendiri dan nggak bisa push\n- Buka AI Hub dari HP lewat Tailscale + PIN (tombol Phone di bar atas), plus Keep this Mac awake dan pagar suhu\n- Menu Tools di sidebar dilipat; izin sesi nggak berubah lagi waktu dibuka dari perangkat lain"
+  "version": "2.0.0",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.0/AI-Hub-2.0.0-arm64-mac.zip",
+  "sha256": "e3c35f95e47e9d88e52ea1e01ff262817956ea0db8c4194d0265ab9fdb16b0fc",
+  "notes": "- Notifikasi ke iPhone: buka AI Hub dari ikon Home Screen di HP, lalu nyalakan di kartu Notifications. Bunyi waktu sesi atau thread butuh jawaban, selesai, atau berhenti\n- Suara notifikasi baru dari rekaman asli (bukan beep lagi), plus suara waktu kertas Notes dibuka\n- Sound pack Warcraft: sesudah update, tombol Update menawarkan Download sound pack. Opsional, bisa Remove kapan saja"
 }
