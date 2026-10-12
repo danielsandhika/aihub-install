@@ -1,6 +1,6 @@
 {
-  "version": "2.0.8",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.8/AI-Hub-2.0.8-arm64-mac.zip",
-  "sha256": "6024b8a0580ade25e53afbc92c72ff06463ff4f66c60ee1758c135e0a30242f9",
-  "notes": "Pertanyaan dari thread sekarang muncul sebagai kartu di chat koordinator, tinggal klik. Panel thread tanpa kotak ketik (pesan lewat koordinator, ada tombol darurat), dan strip Plan minimal muat 4 baris."
+  "version": "2.0.9",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.9/AI-Hub-2.0.9-arm64-mac.zip",
+  "sha256": "684f9b80812a4bd8e972207e0da002e57270e032998beb2aebe09253961fcda4",
+  "notes": "Semua dropdown sekarang bergaya Interfell, bukan bawaan browser. Layar New project punya pilihan model dan effort untuk koordinator dan thread. Timer kerja di thread dan koordinator nggak mulai dari 0 lagi tiap dibuka."
 }
