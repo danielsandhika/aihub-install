@@ -1,6 +1,6 @@
 {
-  "version": "2.0.7",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.7/AI-Hub-2.0.7-arm64-mac.zip",
-  "sha256": "91776072d20c34b6f84417ae2a682d075f00c086522746e38f7e56d30323c0c5",
-  "notes": "Model proyek diatur dari koordinator: badge koordinator dan Project settings pakai dropdown untuk model dan effort koordinator plus bawaan thread Claude, Kimi, dan Codex. Thread yang sudah jalan diganti lewat koordinator."
+  "version": "2.0.8",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.8/AI-Hub-2.0.8-arm64-mac.zip",
+  "sha256": "6024b8a0580ade25e53afbc92c72ff06463ff4f66c60ee1758c135e0a30242f9",
+  "notes": "Pertanyaan dari thread sekarang muncul sebagai kartu di chat koordinator, tinggal klik. Panel thread tanpa kotak ketik (pesan lewat koordinator, ada tombol darurat), dan strip Plan minimal muat 4 baris."
 }
