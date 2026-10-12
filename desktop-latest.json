@@ -1,6 +1,6 @@
 {
-  "version": "2.0.5",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.5/AI-Hub-2.0.5-arm64-mac.zip",
-  "sha256": "07c0ac93806df092770c4dc757b50091cab940dfe7ca4cbbecadaf747f033970",
-  "notes": "Beam di kotak huruf proyek sekarang juga nyala waktu koordinatornya lagi kerja, bukan cuma waktu ada thread yang jalan."
+  "version": "2.0.6",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.6/AI-Hub-2.0.6-arm64-mac.zip",
+  "sha256": "c87b1e6b5963a0b8eebb664ec4d4113137de372351958a0abd9d1fd1700a227f",
+  "notes": "Badge model dan effort di kotak ketik sekarang jujur: /effort yang diketik ikut mengubah badge dan tersimpan. Di chat proyek (koordinator dan thread), badge bisa diklik buat ganti model dan effort."
 }
