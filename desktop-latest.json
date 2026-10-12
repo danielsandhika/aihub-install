@@ -1,6 +1,6 @@
 {
-  "version": "2.0.3",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.3/AI-Hub-2.0.3-arm64-mac.zip",
-  "sha256": "029bd70f5b483c5c4f732ce502d495fd87f5b06ad2eb796e90a63e9a8b3776fb",
-  "notes": "Di HP, daftar Plan nggak lagi tumpah menimpa kartu Heads up, dan percakapan nggak terjepit jadi sebaris. Kalau ruangnya sempit, daftar Plan discroll di dalam kotaknya."
+  "version": "2.0.4",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.4/AI-Hub-2.0.4-arm64-mac.zip",
+  "sha256": "d2333e0578e15be90eaa8bdf3230e2b77180fc1cba18477f275b1dbfffe6a2c6",
+  "notes": "Proyek yang thread-nya lagi kerja sekarang punya beam berputar di kotak huruf awalnya di sidebar. Ada tombol + di baris Projects buat langsung bikin proyek baru."
 }
