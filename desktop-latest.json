@@ -1,6 +1,6 @@
 {
-  "version": "2.0.6",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.6/AI-Hub-2.0.6-arm64-mac.zip",
-  "sha256": "c87b1e6b5963a0b8eebb664ec4d4113137de372351958a0abd9d1fd1700a227f",
-  "notes": "Badge model dan effort di kotak ketik sekarang jujur: /effort yang diketik ikut mengubah badge dan tersimpan. Di chat proyek (koordinator dan thread), badge bisa diklik buat ganti model dan effort."
+  "version": "2.0.7",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.7/AI-Hub-2.0.7-arm64-mac.zip",
+  "sha256": "91776072d20c34b6f84417ae2a682d075f00c086522746e38f7e56d30323c0c5",
+  "notes": "Model proyek diatur dari koordinator: badge koordinator dan Project settings pakai dropdown untuk model dan effort koordinator plus bawaan thread Claude, Kimi, dan Codex. Thread yang sudah jalan diganti lewat koordinator."
 }
