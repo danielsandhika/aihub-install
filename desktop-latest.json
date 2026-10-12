@@ -1,6 +1,6 @@
 {
-  "version": "2.0.4",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.4/AI-Hub-2.0.4-arm64-mac.zip",
-  "sha256": "d2333e0578e15be90eaa8bdf3230e2b77180fc1cba18477f275b1dbfffe6a2c6",
-  "notes": "Proyek yang thread-nya lagi kerja sekarang punya beam berputar di kotak huruf awalnya di sidebar. Ada tombol + di baris Projects buat langsung bikin proyek baru."
+  "version": "2.0.5",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.5/AI-Hub-2.0.5-arm64-mac.zip",
+  "sha256": "07c0ac93806df092770c4dc757b50091cab940dfe7ca4cbbecadaf747f033970",
+  "notes": "Beam di kotak huruf proyek sekarang juga nyala waktu koordinatornya lagi kerja, bukan cuma waktu ada thread yang jalan."
 }
