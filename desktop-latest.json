@@ -1,6 +1,6 @@
 {
-  "version": "2.0.9",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.9/AI-Hub-2.0.9-arm64-mac.zip",
-  "sha256": "684f9b80812a4bd8e972207e0da002e57270e032998beb2aebe09253961fcda4",
-  "notes": "Semua dropdown sekarang bergaya Interfell, bukan bawaan browser. Layar New project punya pilihan model dan effort untuk koordinator dan thread. Timer kerja di thread dan koordinator nggak mulai dari 0 lagi tiap dibuka."
+  "version": "2.0.10",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.10/AI-Hub-2.0.10-arm64-mac.zip",
+  "sha256": "8a1c23d25e27fd070d2357a2e1823424d3fc72e0e0b3e32f5877a445e5e55866",
+  "notes": "Thread proyek sekarang punya nama ala Game of Thrones (Cubai Snow, Cubai Targaryen, dst). Notif thread selesai langsung keluar tanpa harus buka Projects, dan klik notifnya buka thread-nya. Kotak ketik darurat thread nggak tenggelam lagi, dan beam di kotak ketik dibuang."
 }
