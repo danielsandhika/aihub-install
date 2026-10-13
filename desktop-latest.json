@@ -1,6 +1,6 @@
 {
-  "version": "2.0.10",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.10/AI-Hub-2.0.10-arm64-mac.zip",
-  "sha256": "8a1c23d25e27fd070d2357a2e1823424d3fc72e0e0b3e32f5877a445e5e55866",
-  "notes": "Thread proyek sekarang punya nama ala Game of Thrones (Cubai Snow, Cubai Targaryen, dst). Notif thread selesai langsung keluar tanpa harus buka Projects, dan klik notifnya buka thread-nya. Kotak ketik darurat thread nggak tenggelam lagi, dan beam di kotak ketik dibuang."
+  "version": "2.0.11",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.11/AI-Hub-2.0.11-arm64-mac.zip",
+  "sha256": "f84848bbdad529d0ef5b52f66f8f209a0aa02a56b46a5c3d17bc494efc4178b0",
+  "notes": "Projects sekarang tersambung ke vault (kalau Mac-mu punya vault): koordinator membaca konteks dan menyimpan hasil thread otomatis. Pindah antar proyek nggak lagi mengirim ulang pesan pertama, dan izin Auto nggak balik ke Ask. Nama thread jadi chip berwarna provider, dan laporan thread read-only tersimpan sendiri di tab Files."
 }
