@@ -1,6 +1,6 @@
 {
-  "version": "2.0.11",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.11/AI-Hub-2.0.11-arm64-mac.zip",
-  "sha256": "f84848bbdad529d0ef5b52f66f8f209a0aa02a56b46a5c3d17bc494efc4178b0",
-  "notes": "Projects sekarang tersambung ke vault (kalau Mac-mu punya vault): koordinator membaca konteks dan menyimpan hasil thread otomatis. Pindah antar proyek nggak lagi mengirim ulang pesan pertama, dan izin Auto nggak balik ke Ask. Nama thread jadi chip berwarna provider, dan laporan thread read-only tersimpan sendiri di tab Files."
+  "version": "2.0.12",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.12/AI-Hub-2.0.12-arm64-mac.zip",
+  "sha256": "eb5d8c281e52e1959418b1e321e586223da68872d27a94f24e859909432e5c02",
+  "notes": "Notif sesi biasa sekarang seperti notif Projects: judulnya bawa nama sesi (Session done, Needs you, Stopped) dan isinya ringkasan balasan terakhir AI atau pertanyaannya. Berlaku di island Mac dan notif HP."
 }
