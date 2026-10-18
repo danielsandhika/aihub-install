@@ -1,6 +1,6 @@
 {
-  "version": "2.0.17",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.17/AI-Hub-2.0.17-arm64-mac.zip",
-  "sha256": "2d1055cee7d261d702ef7529389b136fb7c1754bffebb70fb7da0499f711ea9c",
-  "notes": "Stop di sesi Claude nggak lagi muncul sebagai error: sekarang island Stopped dengan bunyi orc yes (kalau paket suara Warcraft terpasang), walau kamu lagi lihat sesinya, dan sesinya tetap bisa dilanjut."
+  "version": "2.0.18",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.18/AI-Hub-2.0.18-arm64-mac.zip",
+  "sha256": "53660bc2f15793ac99427fdf2d2d61f3b299526ad3d724472852529320234850",
+  "notes": "Projects: setting baru 'Editing threads in this folder' di Project settings, berapa thread edit boleh jalan barengan di folder yang sama (tiap thread pakai git worktree sendiri), dengan rekomendasi dari RAM Mac. Bawaan tetap 1."
 }
