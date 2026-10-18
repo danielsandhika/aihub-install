@@ -1,6 +1,6 @@
 {
-  "version": "2.0.16",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.16/AI-Hub-2.0.16-arm64-mac.zip",
-  "sha256": "4577b1ffc3a3adeb582d75d58774918318a80b55f7aa9064cf0f32b10f69a836",
-  "notes": "Tiap pesan di chat sekarang punya jam kecil, baik pesanmu maupun jawaban AI (hari ini, Yesterday, atau tanggal). Arahkan kursor ke jamnya untuk tanggal lengkap."
+  "version": "2.0.17",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.17/AI-Hub-2.0.17-arm64-mac.zip",
+  "sha256": "2d1055cee7d261d702ef7529389b136fb7c1754bffebb70fb7da0499f711ea9c",
+  "notes": "Stop di sesi Claude nggak lagi muncul sebagai error: sekarang island Stopped dengan bunyi orc yes (kalau paket suara Warcraft terpasang), walau kamu lagi lihat sesinya, dan sesinya tetap bisa dilanjut."
 }
