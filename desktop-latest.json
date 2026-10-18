@@ -1,6 +1,6 @@
 {
-  "version": "2.0.15",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.15/AI-Hub-2.0.15-arm64-mac.zip",
-  "sha256": "87f0c979c30e87f0c32d41bae94f5fafcc0e295dec5c076dbbdd77f724544a72",
-  "notes": "Sidebar yang diciutkan sekarang jadi rail ikon: semua menu tetap ada, plus huruf awal proyek dan ikon chat yang terbuka atau sedang jalan, klik langsung pindah chat. Tombol buka sidebar nggak ketimpa tombol jendela lagi."
+  "version": "2.0.16",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.0.16/AI-Hub-2.0.16-arm64-mac.zip",
+  "sha256": "4577b1ffc3a3adeb582d75d58774918318a80b55f7aa9064cf0f32b10f69a836",
+  "notes": "Tiap pesan di chat sekarang punya jam kecil, baik pesanmu maupun jawaban AI (hari ini, Yesterday, atau tanggal). Arahkan kursor ke jamnya untuk tanggal lengkap."
 }
