@@ -193,6 +193,6 @@ cat <<EOF
   Kalau ada update:    tombol hijau di dashboard, atau 'aihub update'
   Kalau ada masalah:   aihub doctor
 
-  Panduan pakai ada di $TARGET/docs/PANDUAN.md (versi PDF: docs/AI-Hub-Panduan-Tim.pdf)
+  Panduan pakai ada di $TARGET/docs/PANDUAN.md (versi PDF: docs/Interfell-Panduan-Tim.pdf)
 
 EOF
