@@ -1,6 +1,6 @@
 {
-  "version": "2.1.1",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.1/Interfell-2.1.1-arm64-mac.zip",
-  "sha256": "495a9d4d814ca30f4350ad08662de9127e592387e65df9194a0af81a714ba4a2",
-  "notes": "- New: Claude sessions use your Interfell connections (Akun > MCP), like Notion, monday and Magnific, without signing in again in Claude Code. Your logins stay in Interfell and renew on their own.\n- Read-only threads and the Projects coordinator only get tools that read, never tools that change things.\n- A ⚡ chip next to the folder and model shows which connections joined the session.\n- Workflows, AI node: paste or drop images, files, folders and links. Folders are read in place; links are fetched when the workflow runs."
+  "version": "2.1.2",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.2/Interfell-2.1.2-arm64-mac.zip",
+  "sha256": "09df634f09204293144176873ac269715c75967c9a225558760773ec53562336",
+  "notes": "- Workflows tahap 5: SJA Generate Inspo jalan penuh + acuan skill di node AI"
 }
