@@ -1,6 +1,6 @@
 {
-  "version": "2.1.0",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.0/AI-Hub-2.1.0-arm64-mac.zip",
-  "sha256": "a4082d6631557bd056e5452ef8bdad117f88ef69fa40a95929c8b021a71a440d",
-  "notes": "- New: Workflows. Chain AI, Magnific, monday, Notion, Google and folders on your Mac into a flow; build one from a sentence or a template, run it with a button, on a schedule, or when something new arrives.\n- New: team sign-in. After this update Interfell asks you to sign in with the account Daniel made for you, then choose your own password.\n- New: Akun > You shows your own usage and lets you change your password any time.\n- New for Heads: Usage Analytics (who uses which AI and AI account, quota pressure, Workflows, and an Ask tab).\n- Interfell now sends usage counts and the email of the AI account you use. What you type and the AI's answers stay on your Mac.\n- Team guide updated (14 pages): sign-in, what is recorded, and Workflows."
+  "version": "2.1.1",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.1/Interfell-2.1.1-arm64-mac.zip",
+  "sha256": "495a9d4d814ca30f4350ad08662de9127e592387e65df9194a0af81a714ba4a2",
+  "notes": "- New: Claude sessions use your Interfell connections (Akun > MCP), like Notion, monday and Magnific, without signing in again in Claude Code. Your logins stay in Interfell and renew on their own.\n- Read-only threads and the Projects coordinator only get tools that read, never tools that change things.\n- A ⚡ chip next to the folder and model shows which connections joined the session.\n- Workflows, AI node: paste or drop images, files, folders and links. Folders are read in place; links are fetched when the workflow runs."
 }
