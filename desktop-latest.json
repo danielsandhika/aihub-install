@@ -1,6 +1,6 @@
 {
-  "version": "2.1.7",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.7/Interfell-2.1.7-arm64-mac.zip",
-  "sha256": "54b4d556f79ca1e2edf6dd05e5bf0751403b69adb8487abd2f70cdd46b980c1e",
-  "notes": "- workflow: penampil foto jadi popup di tengah, bukan layar penuh"
+  "version": "2.1.8",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.8/Interfell-2.1.8-arm64-mac.zip",
+  "sha256": "28e2efe983c3241aa49586dc989606a4bd28891a1a9a9c3444c17de9cb24ebc2",
+  "notes": "- workflow: panel Run langsung ke langkah yang lagi proses (jalan, menunggu, gagal)"
 }
