@@ -1,6 +1,6 @@
 {
-  "version": "2.1.2",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.2/Interfell-2.1.2-arm64-mac.zip",
-  "sha256": "09df634f09204293144176873ac269715c75967c9a225558760773ec53562336",
-  "notes": "- Workflows tahap 5: SJA Generate Inspo jalan penuh + acuan skill di node AI"
+  "version": "2.1.3",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.3/Interfell-2.1.3-arm64-mac.zip",
+  "sha256": "66e4078faefa18caee8f706f6b364d136b8cd25f65b6ca73aa80caae58ca8dd7",
+  "notes": "- Redesign Workflows: node berikon, layout melayang, alur menyamping, chatbox AI"
 }
