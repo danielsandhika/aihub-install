@@ -1,6 +1,6 @@
 {
-  "version": "2.1.5",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.5/Interfell-2.1.5-arm64-mac.zip",
-  "sha256": "5410114e0511db96106c242c1523eccc874e6bb9bf8853bfb9ec49df5690c198",
-  "notes": "- Workflows: history chat, Output as, Send to chat, foto mini, kata terlarang di nama produk, run macet"
+  "version": "2.1.6",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.6/Interfell-2.1.6-arm64-mac.zip",
+  "sha256": "9a04552f651fecdb8aa7c09557c3a620e5cc3d4bfa18a8ed2b6972706eff4c66",
+  "notes": "- workflow: penampil foto layar penuh, Review in big view, pita kabar run + bunyi, kabar run ke HP"
 }
