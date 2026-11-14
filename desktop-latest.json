@@ -1,6 +1,6 @@
 {
-  "version": "2.1.3",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.3/Interfell-2.1.3-arm64-mac.zip",
-  "sha256": "66e4078faefa18caee8f706f6b364d136b8cd25f65b6ca73aa80caae58ca8dd7",
-  "notes": "- Redesign Workflows: node berikon, layout melayang, alur menyamping, chatbox AI"
+  "version": "2.1.4",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.4/Interfell-2.1.4-arm64-mac.zip",
+  "sha256": "fc78f71acd3513f79f826c3cfb2d9b6a3b5c6fbf5d8c2aa403ad606e8aa42f01",
+  "notes": "- Workflows: perbaiki force close run besar, penanda run, pilihan Sheets, panah angka, scrollbar, tanda ?"
 }
