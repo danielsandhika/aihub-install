@@ -1,6 +1,6 @@
 {
-  "version": "2.1.6",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.6/Interfell-2.1.6-arm64-mac.zip",
-  "sha256": "9a04552f651fecdb8aa7c09557c3a620e5cc3d4bfa18a8ed2b6972706eff4c66",
-  "notes": "- workflow: penampil foto layar penuh, Review in big view, pita kabar run + bunyi, kabar run ke HP"
+  "version": "2.1.7",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.7/Interfell-2.1.7-arm64-mac.zip",
+  "sha256": "54b4d556f79ca1e2edf6dd05e5bf0751403b69adb8487abd2f70cdd46b980c1e",
+  "notes": "- workflow: penampil foto jadi popup di tengah, bukan layar penuh"
 }
