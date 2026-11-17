@@ -1,6 +1,6 @@
 {
-  "version": "2.1.8",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.8/Interfell-2.1.8-arm64-mac.zip",
-  "sha256": "28e2efe983c3241aa49586dc989606a4bd28891a1a9a9c3444c17de9cb24ebc2",
-  "notes": "- workflow: panel Run langsung ke langkah yang lagi proses (jalan, menunggu, gagal)"
+  "version": "2.1.9",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.9/Interfell-2.1.9-arm64-mac.zip",
+  "sha256": "7cd71569581337d61e970951804c885eeb21d2cc9451dd4fbd1d8bec9407ec96",
+  "notes": "- workflow: kotak AI bisa membaca sendiri + lampiran, Undo/Redo, hasil run rapi, chip daftar bisa dibuka"
 }
