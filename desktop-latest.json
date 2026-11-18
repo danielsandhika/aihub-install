@@ -1,6 +1,6 @@
 {
-  "version": "2.1.10",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.10/Interfell-2.1.10-arm64-mac.zip",
-  "sha256": "7b71e762e009ef56962d168b3982224e04f40e4cbd54f7035a55a706c1f59f06",
-  "notes": "- workflow: menu Add node pakai ikon modul yang sama dengan kartu node (bukan titik warna)"
+  "version": "2.1.11",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.11/Interfell-2.1.11-arm64-mac.zip",
+  "sha256": "5217b130ccbad1a77a5123262e5323b1a37b9894d87c4b8b712d93802c6f8819",
+  "notes": "- workflow: nama berkas referensi Magnific unik per item (item barengan nggak saling menimpa)"
 }
