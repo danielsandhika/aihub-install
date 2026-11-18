@@ -1,6 +1,6 @@
 {
-  "version": "2.1.9",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.9/Interfell-2.1.9-arm64-mac.zip",
-  "sha256": "7cd71569581337d61e970951804c885eeb21d2cc9451dd4fbd1d8bec9407ec96",
-  "notes": "- workflow: kotak AI bisa membaca sendiri + lampiran, Undo/Redo, hasil run rapi, chip daftar bisa dibuka"
+  "version": "2.1.10",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.10/Interfell-2.1.10-arm64-mac.zip",
+  "sha256": "7b71e762e009ef56962d168b3982224e04f40e4cbd54f7035a55a706c1f59f06",
+  "notes": "- workflow: menu Add node pakai ikon modul yang sama dengan kartu node (bukan titik warna)"
 }
