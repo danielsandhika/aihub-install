@@ -1,6 +1,6 @@
 {
-  "version": "2.1.12",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.12/Interfell-2.1.12-arm64-mac.zip",
-  "sha256": "736112f5181bceeadf57abdd90d1b24bae938aa0b35844e2ce7d45898fc40425",
-  "notes": "- workflow: Fase A permintaan tim Master DB + baca internet di node AI"
+  "version": "2.1.13",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.13/Interfell-2.1.13-arm64-mac.zip",
+  "sha256": "cd93b44b9453507ed5b7e5066120e9e952ecd229e63be78cbbe3ece28844831e",
+  "notes": "- workflow: Fase B permintaan tim Master DB (skrip lokal, AI tulis berkas, Append, baca dokumen)"
 }
