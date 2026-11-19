@@ -1,6 +1,6 @@
 {
-  "version": "2.1.11",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.11/Interfell-2.1.11-arm64-mac.zip",
-  "sha256": "5217b130ccbad1a77a5123262e5323b1a37b9894d87c4b8b712d93802c6f8819",
-  "notes": "- workflow: nama berkas referensi Magnific unik per item (item barengan nggak saling menimpa)"
+  "version": "2.1.12",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.12/Interfell-2.1.12-arm64-mac.zip",
+  "sha256": "736112f5181bceeadf57abdd90d1b24bae938aa0b35844e2ce7d45898fc40425",
+  "notes": "- workflow: Fase A permintaan tim Master DB + baca internet di node AI"
 }
