@@ -1,6 +1,6 @@
 {
-  "version": "2.1.14",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.14/Interfell-2.1.14-arm64-mac.zip",
-  "sha256": "133ac9c905fc36330fd4f2608b82a14b64df118a498621779e3bfb31cdacfb40",
-  "notes": "- workflow: Fase C permintaan tim Master DB (cek banyak field, batas folder, Review and edit, Update rows per blok)"
+  "version": "2.1.15",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.15/Interfell-2.1.15-arm64-mac.zip",
+  "sha256": "53ad2eb678a0a7117d65c7910cc86a00aae5a9d71e2a0cb58c80b0b856b9f976",
+  "notes": "- workflow: Fase D permintaan tim Master DB + paste seperti chatbox sesi"
 }
