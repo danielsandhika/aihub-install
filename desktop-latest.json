@@ -1,6 +1,6 @@
 {
-  "version": "2.1.15",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.15/Interfell-2.1.15-arm64-mac.zip",
-  "sha256": "53ad2eb678a0a7117d65c7910cc86a00aae5a9d71e2a0cb58c80b0b856b9f976",
-  "notes": "- workflow: Fase D permintaan tim Master DB + paste seperti chatbox sesi"
+  "version": "2.1.16",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.16/Interfell-2.1.16-arm64-mac.zip",
+  "sha256": "9d5372c5541b2eba5a912f9bb07c7e63c66c7c80e64ed878ce88e24341117fc8",
+  "notes": "- workflow: node AI melihat foto dari link Drive di kolom, foto di tabel Review, perakit New workflow mengisi semua setelan"
 }
