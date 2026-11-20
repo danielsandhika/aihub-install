@@ -1,6 +1,6 @@
 {
-  "version": "2.1.13",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.13/Interfell-2.1.13-arm64-mac.zip",
-  "sha256": "cd93b44b9453507ed5b7e5066120e9e952ecd229e63be78cbbe3ece28844831e",
-  "notes": "- workflow: Fase B permintaan tim Master DB (skrip lokal, AI tulis berkas, Append, baca dokumen)"
+  "version": "2.1.14",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.14/Interfell-2.1.14-arm64-mac.zip",
+  "sha256": "133ac9c905fc36330fd4f2608b82a14b64df118a498621779e3bfb31cdacfb40",
+  "notes": "- workflow: Fase C permintaan tim Master DB (cek banyak field, batas folder, Review and edit, Update rows per blok)"
 }
