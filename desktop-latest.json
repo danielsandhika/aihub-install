@@ -1,6 +1,6 @@
 {
-  "version": "2.1.16",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.16/Interfell-2.1.16-arm64-mac.zip",
-  "sha256": "9d5372c5541b2eba5a912f9bb07c7e63c66c7c80e64ed878ce88e24341117fc8",
-  "notes": "- workflow: node AI melihat foto dari link Drive di kolom, foto di tabel Review, perakit New workflow mengisi semua setelan"
+  "version": "2.1.17",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.17/Interfell-2.1.17-arm64-mac.zip",
+  "sha256": "1685e0d7c333ad7ae4684f8e4609308bb06c42c438a17a98ea2537a703487927",
+  "notes": "- proyek: fork thread Claude, kartu kabar + strip Now di chat koordinator, pin + Resolved otomatis 3 hari"
 }
