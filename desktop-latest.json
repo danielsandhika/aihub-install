@@ -1,6 +1,6 @@
 {
-  "version": "2.1.17",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.17/Interfell-2.1.17-arm64-mac.zip",
-  "sha256": "1685e0d7c333ad7ae4684f8e4609308bb06c42c438a17a98ea2537a703487927",
-  "notes": "- proyek: fork thread Claude, kartu kabar + strip Now di chat koordinator, pin + Resolved otomatis 3 hari"
+  "version": "2.1.18",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.18/Interfell-2.1.18-arm64-mac.zip",
+  "sha256": "d8b9b032503658c3e10f6239db40e813de0b384423691b31792907524759bbf5",
+  "notes": "- merge chore/sdk-0.3.330: Claude Agent SDK 0.3.330 (Fable 5.1 dan 5.2)\n- deps: Claude Agent SDK 0.3.280 jadi 0.3.330 (Fable 5.1 dan 5.2 muncul di pilihan model)\n- proyek: /btw thread samping dan Remind me"
 }
