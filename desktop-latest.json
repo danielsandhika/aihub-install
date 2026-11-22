@@ -1,6 +1,7 @@
 {
-  "version": "2.1.18",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.1.18/Interfell-2.1.18-arm64-mac.zip",
-  "sha256": "d8b9b032503658c3e10f6239db40e813de0b384423691b31792907524759bbf5",
-  "notes": "- merge chore/sdk-0.3.330: Claude Agent SDK 0.3.330 (Fable 5.1 dan 5.2)\n- deps: Claude Agent SDK 0.3.280 jadi 0.3.330 (Fable 5.1 dan 5.2 muncul di pilihan model)\n- proyek: /btw thread samping dan Remind me"
+  "version": "2.2.0",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.0/Interfell-2.2.0-arm64-mac.zip",
+  "sha256": "fbaeb775bbcc032c7af0ff1c2816126171db28c5ee1d2204168ecb02f2f15e38",
+  "notes": "- feat: ronde 3 2.2.0: Menu Ringkas, search conversations, micro animation, update di lonceng, HTML preview utuh\n- feat: preview besar + Copy/Share, status dan setup Obsidian, perbaikan You should know\n- fix: menu ⋯ workflow kepotong, suara paket bernama di Settings, dropdown buka ke atas\n- 2.2.0: Settings > Performance, palette generator, bar atas workflow, tombol X island\n- build: folder app lama yang terbuka di Finder dipindah ke Trash, bukan menghentikan build\n- fix: temuan uji 2.2.0 (Touch ID minta password Interfell, satu tombol Settings, Tools dilipat, Stop run)\n- build: app hasil build di release/mac-arm64.noindex supaya nggak muncul di Spotlight\n- merge fitur/workflow: Interfell Tahap 1-6 + Profile, Touch ID, pemilih folder\n- Interfell Tahap 1-6: keamanan, bug, performa, Settings, 15 fitur, paket bersih",
+  "sig": "yOqTAHhmMELZv4WvVz3W7OOaxIBBgK3CD5Z0Lm4DXrwJyWe+ZhGSRPqXzGGeqYNxJQix5pK695bK3iBbpFRvBw=="
 }
