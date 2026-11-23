@@ -99,11 +99,11 @@ if [ "$HAPUS_DATA" -eq 1 ] && [ -d "$DATA" ]; then
   if [ "$rc" -ne 0 ] || [ ! -s "$BACKUP.part" ]; then berhenti "The backup could not be made (zip exit $rc). Nothing was changed." "Check free space. If macOS asked whether Terminal may use Downloads, click Allow."; fi
   unzip -tq "$BACKUP.part" >/dev/null 2>&1 || berhenti "The backup failed its integrity test. Nothing was changed." "Check free space, then try again."
   DAFTAR="$(zipinfo -1 "$BACKUP.part" 2>/dev/null)"
-  JUMLAH="$(printf '%s\n' "$DAFTAR" | grep -c .)"
+  JUMLAH="$(grep -c . <<<"$DAFTAR")"
   [ "$JUMLAH" -gt 0 ] || berhenti "The backup is empty. Nothing was changed." "Tell Daniel."
   for kunci in schedules.json desktop.json session-prefs.json titles.json akun-tim.json rahasia.json mcp-koneksi.json workflow/wf proyek notes; do
     [ -e "$DATA/$kunci" ] || continue
-    printf '%s\n' "$DAFTAR" | grep -qxF ".aihub/$kunci" || printf '%s\n' "$DAFTAR" | grep -qxF ".aihub/$kunci/" \
+    grep -qxF ".aihub/$kunci" <<<"$DAFTAR" || grep -qxF ".aihub/$kunci/" <<<"$DAFTAR" \
       || berhenti "The backup is missing $kunci. Nothing was changed." "Tell Daniel, and send this screen."
   done
   mv "$BACKUP.part" "$BACKUP" && chmod 600 "$BACKUP"

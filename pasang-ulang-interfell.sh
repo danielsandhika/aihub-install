@@ -361,11 +361,11 @@ else
   fi
   unzip -tq "$BACKUP.part" >/dev/null 2>&1 || { rm -f "$BACKUP.part"; berhenti "The backup failed its integrity test. Nothing was removed." "Check free space, then try again."; }
   DAFTAR="$(zipinfo -1 "$BACKUP.part" 2>/dev/null)"
-  JUMLAH="$(printf '%s\n' "$DAFTAR" | grep -c .)"
+  JUMLAH="$(grep -c . <<<"$DAFTAR")"
   [ "$JUMLAH" -gt 0 ] || { rm -f "$BACKUP.part"; berhenti "The backup is empty. Nothing was removed." "Tell Daniel."; }
   for kunci in schedules.json desktop.json session-prefs.json titles.json akun-tim.json rahasia.json mcp-koneksi.json workflow/wf proyek notes; do
     [ -e "$DATA/$kunci" ] || continue
-    printf '%s\n' "$DAFTAR" | grep -qxF ".aihub/$kunci" || printf '%s\n' "$DAFTAR" | grep -qxF ".aihub/$kunci/" \
+    grep -qxF ".aihub/$kunci" <<<"$DAFTAR" || grep -qxF ".aihub/$kunci/" <<<"$DAFTAR" \
       || { rm -f "$BACKUP.part"; berhenti "The backup is missing $kunci. Nothing was removed." "Tell Daniel, and send this screen."; }
   done
   mv "$BACKUP.part" "$BACKUP" && chmod 600 "$BACKUP"
