@@ -1,7 +1,7 @@
 {
-  "version": "2.2.1",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.1/Interfell-2.2.1-arm64-mac.zip",
-  "sha256": "b18b93f9202db57ef162e290120cb53598d7ed3f69570b4d1a6fe49845517f0f",
-  "notes": "- feat: logo provider gantikan titik warna, tombol Window/Layout di tengah bar, Mac baru nggak menerima riwayat Messages lama\n- fix: badge lonceng otomatis hilang (sesi dibuka, Needs you dijawab), ganti tema memudar, tab panel kanan meluncur, RAM total Interfell di tab Servers\n- fix: cabut matriks titik di baris sesi sidebar, penanda kerja tetap orb (permintaan Daniel)\n- feat: ronde 3 2.2.0: Menu Ringkas, search conversations, micro animation, update di lonceng, HTML preview utuh\n- feat: preview besar + Copy/Share, status dan setup Obsidian, perbaikan You should know\n- fix: menu ⋯ workflow kepotong, suara paket bernama di Settings, dropdown buka ke atas\n- 2.2.0: Settings > Performance, palette generator, bar atas workflow, tombol X island\n- build: folder app lama yang terbuka di Finder dipindah ke Trash, bukan menghentikan build\n- fix: temuan uji 2.2.0 (Touch ID minta password Interfell, satu tombol Settings, Tools dilipat, Stop run)\n- build: app hasil build di release/mac-arm64.noindex supaya nggak muncul di Spotlight",
-  "sig": "BK1joUQVV9gsf8NvCNceoUbiKXAaPeofd1rTKlm9ywz3226bS+U+icIU0mEU1pRUhjsWRnnZJKwj6wLBnnx4CQ=="
+  "version": "2.2.2",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.2/Interfell-2.2.2-arm64-mac.zip",
+  "sha256": "406db7fc8403620cdfddbe04f5c15bfb8805c233a83a4998d730fde2f288e5c6",
+  "notes": "- feat: kartu Sources dan Files di bawah jawaban AI, notif Heads up/You should know di lonceng ikut terbaca\n- fix: skrip pasang ulang dan uninstall nggak lagi gagal 'backup is missing schedules.json' di data besar",
+  "sig": "X7+DCj1e4QBjNBFqdgV27aS/fugBy/V920R2dZTfAvotxFW3gkMWy3XnppKldBF4OT7VNV9+sKF7WX5aLHO2Dw=="
 }
