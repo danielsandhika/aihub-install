@@ -1,7 +1,7 @@
 {
-  "version": "2.2.2",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.2/Interfell-2.2.2-arm64-mac.zip",
-  "sha256": "406db7fc8403620cdfddbe04f5c15bfb8805c233a83a4998d730fde2f288e5c6",
-  "notes": "- feat: kartu Sources dan Files di bawah jawaban AI, notif Heads up/You should know di lonceng ikut terbaca\n- fix: skrip pasang ulang dan uninstall nggak lagi gagal 'backup is missing schedules.json' di data besar",
-  "sig": "X7+DCj1e4QBjNBFqdgV27aS/fugBy/V920R2dZTfAvotxFW3gkMWy3XnppKldBF4OT7VNV9+sKF7WX5aLHO2Dw=="
+  "version": "2.2.3",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.3/Interfell-2.2.3-arm64-mac.zip",
+  "sha256": "1e578a5e8835d3517a5e635689a94ac79b8708dc2e16797cb0449d84a04e6dd3",
+  "notes": "- feat: Sources jadi pil ringkas + cuma dari tool web, Projects bisa pindah akun Claude, lonceng Projects cuma yang perlu aksi",
+  "sig": "i9jODquV14r8Ecc5mNB/+g1+awWEVD41KV+QIC6vma+IsNOdtEeemNZ9VtFdx1VXh3eGwMeoNzfze3As1BsXBg=="
 }
