@@ -1,7 +1,7 @@
 {
-  "version": "2.2.4",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.4/Interfell-2.2.4-arm64-mac.zip",
-  "sha256": "edd8a4f972a3aa49865ec2e97323a77687409035f7c047520cd810a5b1d080a9",
-  "notes": "- fix: riwayat sesi panjang bisa di-scroll sampai awal, ekspor membaca seluruh percakapan",
-  "sig": "kEVy1x0uncEsBNy8Vt828dvUwpb3Z5tfauaBePDKgrMRMccz6pSWbXudhURpCTkOTVeiMt4Z4hgejD8a7T3qCg=="
+  "version": "2.2.5",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.5/Interfell-2.2.5-arm64-mac.zip",
+  "sha256": "91917e8f5894159c848df440f6bbb0bf02718071ada6730873fe91672e192f5d",
+  "notes": "- fix: tombol Back to bottom selalu sampai dasar walau riwayat panjang sudah dimuat",
+  "sig": "3S1x7VN4E/UZZR++31+Aplpkj78WWoUW5v+Ie4WPEijqXMROGEyA+QvLGh+6yjTS0xhbF4B2lx1d+gG3ZtGUDA=="
 }
