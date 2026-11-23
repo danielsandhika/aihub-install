@@ -1,7 +1,7 @@
 {
-  "version": "2.2.3",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.3/Interfell-2.2.3-arm64-mac.zip",
-  "sha256": "1e578a5e8835d3517a5e635689a94ac79b8708dc2e16797cb0449d84a04e6dd3",
-  "notes": "- feat: Sources jadi pil ringkas + cuma dari tool web, Projects bisa pindah akun Claude, lonceng Projects cuma yang perlu aksi",
-  "sig": "i9jODquV14r8Ecc5mNB/+g1+awWEVD41KV+QIC6vma+IsNOdtEeemNZ9VtFdx1VXh3eGwMeoNzfze3As1BsXBg=="
+  "version": "2.2.4",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.4/Interfell-2.2.4-arm64-mac.zip",
+  "sha256": "edd8a4f972a3aa49865ec2e97323a77687409035f7c047520cd810a5b1d080a9",
+  "notes": "- fix: riwayat sesi panjang bisa di-scroll sampai awal, ekspor membaca seluruh percakapan",
+  "sig": "kEVy1x0uncEsBNy8Vt828dvUwpb3Z5tfauaBePDKgrMRMccz6pSWbXudhURpCTkOTVeiMt4Z4hgejD8a7T3qCg=="
 }
