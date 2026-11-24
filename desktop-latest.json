@@ -1,7 +1,7 @@
 {
-  "version": "2.2.6",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.6/Interfell-2.2.6-arm64-mac.zip",
-  "sha256": "78fbaf6500a1df5fa036793580d6cdcb3d55a3aff962e12b124f3637fc524c2d",
-  "notes": "- feat: node Figma di Workflows lewat koneksi Figma milik Claude Code\n- feat: editor Retouch Magnific, node Edit images, node Canva, model video Magnific terbaca",
-  "sig": "746s9Jnog1+OmQQA0VjsmmWD1bRPkwxp4P6OJLB3SftlIfFNHtps/Dk2xpCKtO5kii6HR/9Qw7evft1Bj3+UCA=="
+  "version": "2.2.7",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.7/Interfell-2.2.7-arm64-mac.zip",
+  "sha256": "af3f4b2c33dc049f8ce2a192ada7639d60bb4d9876c94435a4efc30a065e9e91",
+  "notes": "- feat: antrean pesan After it finishes dan Side chat (/btw) dengan Hand off to session\n- fix: riwayat nggak mundur sesudah pindah akun, salin ulang nggak menimpa salinan yang lebih baru\n- fix: kartu Scheduled nggak tampil gagal selagi jalan, perkiraan kredit node nggak nyasar antar workflow",
+  "sig": "yAthX0i9GQmS+LOt2baOLy4pjd4d6S0ZNBzaMnbvq9QNraraHqO5bDdrjPGcM4AaIk4X2mMefFz0V6I2H5X9Aw=="
 }
