@@ -1,7 +1,7 @@
 {
-  "version": "2.2.5",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.5/Interfell-2.2.5-arm64-mac.zip",
-  "sha256": "91917e8f5894159c848df440f6bbb0bf02718071ada6730873fe91672e192f5d",
-  "notes": "- fix: tombol Back to bottom selalu sampai dasar walau riwayat panjang sudah dimuat",
-  "sig": "3S1x7VN4E/UZZR++31+Aplpkj78WWoUW5v+Ie4WPEijqXMROGEyA+QvLGh+6yjTS0xhbF4B2lx1d+gG3ZtGUDA=="
+  "version": "2.2.6",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.6/Interfell-2.2.6-arm64-mac.zip",
+  "sha256": "78fbaf6500a1df5fa036793580d6cdcb3d55a3aff962e12b124f3637fc524c2d",
+  "notes": "- feat: node Figma di Workflows lewat koneksi Figma milik Claude Code\n- feat: editor Retouch Magnific, node Edit images, node Canva, model video Magnific terbaca",
+  "sig": "746s9Jnog1+OmQQA0VjsmmWD1bRPkwxp4P6OJLB3SftlIfFNHtps/Dk2xpCKtO5kii6HR/9Qw7evft1Bj3+UCA=="
 }
