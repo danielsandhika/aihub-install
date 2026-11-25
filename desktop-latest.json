@@ -1,7 +1,7 @@
 {
-  "version": "2.2.8",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.8/Interfell-2.2.8-arm64-mac.zip",
-  "sha256": "37f2f8f103d7dc0c2314b0c751ab6f5148379d5b1fbfbf6991edc502f583d644",
-  "notes": "- docs: panduan tim 2.2.7\n- feat: kartu pertanyaan dari layanan, kerjaan panjang di belakang, alat MCP jalan di Codex\n- fix: label model Default nggak meluber\n- fix: hapus sesi membuang salinannya di semua akun, Undo mengembalikan semuanya\n- chore: claude-agent-sdk 0.3.331",
-  "sig": "zdTR77YvR5gqpt8sBJ6aT4/YN8jbk3i/fOeCDwUhesOH2bmYY1dvX8gVFkVeIDNEEkq73zZJTHddg7+FTtqSBA=="
+  "version": "2.2.9",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.9/Interfell-2.2.9-arm64-mac.zip",
+  "sha256": "3517dd528e2d7761c0cadea863f2ab4cec7a51f167ea76e4915bc4a87b3efedb",
+  "notes": "- fix: lonceng tahu kabar yang sudah dibaca di tempat lain\n- fix: status server tim nggak nyangkut offline, galat server nggak mengeluarkan user, strip atas dicabut",
+  "sig": "VFN2dkUh3clFYzcr/8RtPhUUutKXgiyHOYhARp8TBFearQY0pR2VxSSR29NK+ltwChYsRKJEW6L18PlHbmUkCw=="
 }
