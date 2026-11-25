@@ -1,7 +1,7 @@
 {
-  "version": "2.2.9",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.9/Interfell-2.2.9-arm64-mac.zip",
-  "sha256": "3517dd528e2d7761c0cadea863f2ab4cec7a51f167ea76e4915bc4a87b3efedb",
-  "notes": "- fix: lonceng tahu kabar yang sudah dibaca di tempat lain\n- fix: status server tim nggak nyangkut offline, galat server nggak mengeluarkan user, strip atas dicabut",
-  "sig": "VFN2dkUh3clFYzcr/8RtPhUUutKXgiyHOYhARp8TBFearQY0pR2VxSSR29NK+ltwChYsRKJEW6L18PlHbmUkCw=="
+  "version": "2.2.10",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.10/Interfell-2.2.10-arm64-mac.zip",
+  "sha256": "4eab36db0d7405a62c6b2665b21c81fea023aac790830858e7a122f7c8775ec6",
+  "notes": "- feat: Heads up dikirim ke sesi, penanda agen latar, agen nggak ikut dimatikan, bar atas di jendela kecil",
+  "sig": "AOsACu2/diXP+b57RB4AnKHp56+FE+sEGt1lNKrpY9qdzwtiCpO2+VYRuW89kxEYh3AK5Rq7Uyd703AbaH0yDA=="
 }
