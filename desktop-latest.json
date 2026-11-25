@@ -1,7 +1,7 @@
 {
-  "version": "2.2.10",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.10/Interfell-2.2.10-arm64-mac.zip",
-  "sha256": "4eab36db0d7405a62c6b2665b21c81fea023aac790830858e7a122f7c8775ec6",
-  "notes": "- feat: Heads up dikirim ke sesi, penanda agen latar, agen nggak ikut dimatikan, bar atas di jendela kecil",
-  "sig": "AOsACu2/diXP+b57RB4AnKHp56+FE+sEGt1lNKrpY9qdzwtiCpO2+VYRuW89kxEYh3AK5Rq7Uyd703AbaH0yDA=="
+  "version": "2.2.11",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.11/Interfell-2.2.11-arm64-mac.zip",
+  "sha256": "1e1239e46e8f0dbb2d274c9b34545e053044677a6342acc3c7eaed97a35f930b",
+  "notes": "- fix: Heads up bertumpuk bisa ditutup sekali klik, tombolnya lebih tenang",
+  "sig": "6BHUGdoR74acxSHl1i+nju2wbaSmhRbZm+oFPtmmkHQYQtXtYRlMsCao6LEw7q84VO90G2aBqIIy2CNK9ICpDQ=="
 }
