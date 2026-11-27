@@ -1,7 +1,7 @@
 {
-  "version": "2.2.12",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.12/Interfell-2.2.12-arm64-mac.zip",
-  "sha256": "f8506fe68677f3f552466bc90b53ab197054b09a203303f9b26e98fb61fdae86",
-  "notes": "- fix: server Interfell nggak membengkak lagi karena strip Plan",
-  "sig": "Vts1v03giG97Ny+15WqZb2HSlW3e4CXXNvBYNwrQj5woh29/2Vo8zofoz1WgSvfGRvdP8atnBVkkMOGEHO1HBw=="
+  "version": "2.2.13",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.13/Interfell-2.2.13-arm64-mac.zip",
+  "sha256": "1a7b12b793ba9c24def4c5bb6fe973f83fd5f432348fbf70dd2f6c5f0b190321",
+  "notes": "- feat: server MCP dibagi antar sesi Claude, nyala waktu dipakai",
+  "sig": "8rFGuBHlBbe8yZwSKRJOMUCq14/BBamqibjG5mGkKoyZTjKrpSCZeSHaPpJi7wVzRLzO1YUa9xRwloBY/0J6DA=="
 }
