@@ -1,7 +1,7 @@
 {
-  "version": "2.2.11",
-  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.11/Interfell-2.2.11-arm64-mac.zip",
-  "sha256": "1e1239e46e8f0dbb2d274c9b34545e053044677a6342acc3c7eaed97a35f930b",
-  "notes": "- fix: Heads up bertumpuk bisa ditutup sekali klik, tombolnya lebih tenang",
-  "sig": "6BHUGdoR74acxSHl1i+nju2wbaSmhRbZm+oFPtmmkHQYQtXtYRlMsCao6LEw7q84VO90G2aBqIIy2CNK9ICpDQ=="
+  "version": "2.2.12",
+  "url": "https://github.com/danielsandhika/aihub-install/releases/download/v2.2.12/Interfell-2.2.12-arm64-mac.zip",
+  "sha256": "f8506fe68677f3f552466bc90b53ab197054b09a203303f9b26e98fb61fdae86",
+  "notes": "- fix: server Interfell nggak membengkak lagi karena strip Plan",
+  "sig": "Vts1v03giG97Ny+15WqZb2HSlW3e4CXXNvBYNwrQj5woh29/2Vo8zofoz1WgSvfGRvdP8atnBVkkMOGEHO1HBw=="
 }
